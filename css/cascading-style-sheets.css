@@ -72,11 +72,12 @@ aside{
 
 .cardbox {
     margin-left: 200px;
+    padding-bottom: 120px;
     width: calc(100vw - 215px);
     top: 70px;
-    height: 3000px;
     background-color: violet;
     position: relative;
+    overflow: auto;
 }
 
 .menu{
@@ -100,14 +101,13 @@ aside{
 
 .titles h2 {
     font-size: 23px;
-    padding-bottom: 20px;
 }
 
 .cards{
     display: flex;
-    width: 100%;
     position: relative;
     background-color: thistle;
+    padding-top: 25px;
 }
 
 .card{
@@ -128,6 +128,10 @@ aside{
     padding: 5px;
 }
 
+.titles p{
+    padding-top: 10px;
+    font-size: small;
+}
 
 
 /*************************************************************************
