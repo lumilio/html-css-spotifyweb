@@ -12,9 +12,18 @@
 
 
 
-/****************************** MAINBOX ********************************/
+/*************************************************************************
+                               MAINBOX 
+*************************************************************************/
+
+.mainbox{
+    position: relative;
+}
+
+/***************************** ASIDE ***********************************/
 
 aside{
+    z-index: 1;
     position: fixed;
     height: 90%;
     width: 15%;
@@ -31,11 +40,55 @@ aside{
 
 }
 
+/***************************** UPGRADE BANNER *****************************/
+
+.header-banner{
+    position: fixed;
+    height: 10%;
+    width: 100%;
+    background-color: crimson;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-banner .upgrade-button{
+    background-color:#000000;
+    margin-right: 5px;
+	border-radius:28px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	padding:12px 31px;
+	text-decoration:none;
+}
+
+/***************************** CARDBOX *****************************/
+
+.cardbox {
+    margin-left: 15%;
+    top: 100px;
+    background-color: violet;
+    position: relative;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+.cardrow{
+
+}
 
 
-
-
-/****************************** FOOTERBOX ********************************/
+/*************************************************************************
+                               FOOTERBOX
+*************************************************************************/
 
 .footerbox {
 	width: 100vw;
