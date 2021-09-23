@@ -9,3 +9,46 @@
     clear: both;
     display: table;
 }
+
+
+
+/****************************** MAINBOX ********************************/
+
+aside{
+    position: fixed;
+    height: 90%;
+    width: 15%;
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.firstpart , .secondpart {
+    width: 100%;
+    height: 200px;
+    background-color: green;
+
+}
+
+
+
+
+
+/****************************** FOOTERBOX ********************************/
+
+.footerbox {
+	width: 100vw;
+	height: 10%;
+	position: fixed;
+	bottom: 0px;
+	background-color: blue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer1 , .footer2 , .footer3 {
+    height: 100%;
+    width: 215px;
+    background-color: rgb(91, 91, 204);
+}
