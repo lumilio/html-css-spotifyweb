@@ -113,14 +113,13 @@ aside{
 
 .cards{
     display: flex;
-    padding-top: 10px;
 }
 
 .card{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
+    padding-right: 15px;
     width: 16%;
     height: auto;
 }
@@ -128,6 +127,8 @@ aside{
 .card img{
     width: 100%;
     height: auto;
+    padding-top: 20px;
+    padding-bottom: 15px;
 }
 
 .card h4{
@@ -136,6 +137,7 @@ aside{
 
 .titles p{
     padding-top: 10px;
+    padding-bottom: 10px;
     font-size: small;
 }
 
