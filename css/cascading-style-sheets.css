@@ -26,7 +26,7 @@ body{
 /****************** ASIDE *****************/
 
 aside{
-    height: calc(100vh - 70px);
+    height: calc(100vh - 90px);
     width: 200px;
     background-color: black;
     display: flex;
@@ -179,7 +179,7 @@ aside .fa-plus-square{
 
 .cardbox {
     width: calc(100vw - 200px);
-    height: calc(100vh - 150px);
+    height: calc(100vh - 170px);
     background-color: #141922;
     position: relative;
     overflow-y: auto;
@@ -207,9 +207,6 @@ aside .fa-plus-square{
     color: white;
 }
 
-
-
-
 .evidenza-green{
     display: flex;
     flex-direction: column;
@@ -224,13 +221,6 @@ aside .fa-plus-square{
     text-align: center;
     margin: -10px;
 }
-
-
-
-
-
-
-
 
 .card-row{
     padding: 25px;
@@ -289,7 +279,7 @@ aside .fa-plus-square{
 
 .footerbox {
 	width: 100%;
-	height: 70px;
+	height: 90px;
 	background-color: #282828;
     display: flex;
     justify-content: space-between;
@@ -364,7 +354,7 @@ aside .fa-plus-square{
 }
 
 .player-buttons{
-    padding-bottom: 7px;
+    padding-bottom: 15px;
     padding-top: 5px;
     width: 200px;
     align-items: center;
