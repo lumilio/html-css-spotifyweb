@@ -91,7 +91,7 @@ aside h5 {
 }
 
 aside p {
-    font-size: 10px;
+    font-size: 12px;
     padding-left: 8px;
 }
 
@@ -246,12 +246,42 @@ aside .fa-plus-square{
     height: auto;
 }
 
+
+
+
+
+
+
+
 .card img{
     width: 100%;
     height: auto;
     padding-top: 20px;
     padding-bottom: 15px;
 }
+
+.cards .card .sub-cardbox{
+    position: relative;
+}
+
+.cards .card .sub-cardbox .far{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;   
+}
+
+img:hover ~ .far{
+    display: block;
+}
+
+
+
+
+
+
+
 
 .card h4{
     padding-bottom: 5px;
