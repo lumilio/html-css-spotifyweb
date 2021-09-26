@@ -32,6 +32,7 @@ aside{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    overflow: auto;
 }
 
 .firstpart , .secondpart {
@@ -40,7 +41,7 @@ aside{
     color: #afafaf;
 }
 
-.firstpart img{
+.firstpart #logo{
     width: 150px;
     padding: 10px;
 }
@@ -51,13 +52,13 @@ aside{
 .firstpart .icon-menu .icon4 { 
     width: 100%;
     border-left: 3px solid black;
-    padding: 8px;
     display: flex;
     align-items: center;
 }
 
 .firstpart .icon-menu .icon4 {
     border-left: 0;
+    padding: 8px;
 }
 
 .firstpart .icon-menu .icon1{
@@ -65,28 +66,26 @@ aside{
     color: white;
 }
 
+.icon-menu img{
+    max-width: 30px;
+    padding: 5px;
+    padding-right: 0;
+}
+
 aside h5 {
     padding-left: 8px;
-    padding-top: 25px;
+    padding-top: 30px;
     padding-bottom: 5px;
     color: white;
 }
 
-aside .fas{
-    font-size: 22px;
-}
-
-aside .fa-plus-square{
-    font-size: 30px;
-}
-
 aside p {
-    font-size: 11px;
+    font-size: 10px;
     padding-left: 8px;
 }
 
 aside .elenco-playlist{
-    line-height: 30px;
+    line-height: 35px;
 }
 
 .icon5 , .icon6{
@@ -95,19 +94,32 @@ aside .elenco-playlist{
     padding: 5px;
 }
 
+.icon6 p{
+    color: white;
+    font-size: 14px;
+}
+
+.icon5 img{
+    max-width: 20px;
+}
+
+.icon6 img{
+    max-width: 35px;
+    padding-right: 10px;
+    color: white;
+}
+
+aside .fa-plus-square{
+    font-size: 30px;
+}
+
 .secondpart hr{
     margin-right: 10px;
     margin: 5px;
     margin-bottom: 15px;
 }
 
-.secondpart .icon5 .far{
-    font-size: 10px;
-}
 
-.secondpart .icon6 .fas{
-    font-size: 22px;
-}
 
 
 
@@ -230,6 +242,37 @@ aside .elenco-playlist{
 
 .footer1 , .footer2 , .footer3 {
     height: 100%;
-    width: 215px;
-    background-color: rgb(91, 91, 204);
+    width: 200px;
+    display: flex;
+    align-items: center;
+    color: #afafaf;
+}
+
+.footer1 img{
+    max-width: 50px;
+    padding: 10px;
+    padding-right: 5px;
+}
+
+.song-info{
+    padding: 8px;
+}
+
+.footer1 .song-info h6{
+    font-size: 13px;
+    color: white;
+}
+
+.footer1 .song-info p{
+    font-size: 10px;
+}
+
+.footer1 .song-icon{
+    padding-left: 25px;
+    display: flex;
+}
+
+.footer1 .song-icon .far{
+    padding: 5px;
+    font-size: 15px;
 }
