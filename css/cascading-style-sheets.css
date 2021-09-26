@@ -15,13 +15,9 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-
-
 /*************************************************************************
                                MAINBOX 
 *************************************************************************/
-
-
 
 .mainbox{
     display: flex;
@@ -40,8 +36,8 @@ aside{
 
 .firstpart , .secondpart {
     width: 100%;
-    height: 200px;
-
+    padding: 5px;
+    color: #afafaf;
 }
 
 .firstpart img{
@@ -49,22 +45,72 @@ aside{
     padding: 10px;
 }
 
-.icon-menu{
-    padding: 5px;
+.firstpart .icon-menu .icon1 ,
+.firstpart .icon-menu .icon2 ,
+.firstpart .icon-menu .icon3 ,
+.firstpart .icon-menu .icon4 { 
+    width: 100%;
+    border-left: 3px solid black;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.firstpart .icon-menu .icon4 {
+    border-left: 0;
+}
+
+.firstpart .icon-menu .icon1{
+    border-left: 3px solid #85b847;
     color: white;
 }
 
-.icon-menu .icon1 ,
-.icon-menu .icon2 ,
-.icon-menu .icon3  { 
-    width: 100%;
-    border-left: 2px solid red;
-    padding: 8px;
+aside h5 {
+    padding-left: 8px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    color: white;
 }
 
-.secondpart {
-
+aside .fas{
+    font-size: 22px;
 }
+
+aside .fa-plus-square{
+    font-size: 30px;
+}
+
+aside p {
+    font-size: 11px;
+    padding-left: 8px;
+}
+
+aside .elenco-playlist{
+    line-height: 30px;
+}
+
+.icon5 , .icon6{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.secondpart hr{
+    margin-right: 10px;
+    margin: 5px;
+    margin-bottom: 15px;
+}
+
+.secondpart .icon5 .far{
+    font-size: 10px;
+}
+
+.secondpart .icon6 .fas{
+    font-size: 22px;
+}
+
+
+
 
 /************************* UPGRADE BANNER ************************/
 
