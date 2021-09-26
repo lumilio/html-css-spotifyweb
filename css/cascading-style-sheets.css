@@ -15,15 +15,15 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-/*************************************************************************
-                               MAINBOX 
-*************************************************************************/
+/*****************************************
+                 MAINBOX 
+***********************************************/
 
 .mainbox{
     display: flex;
 }
 
-/************************* ASIDE ***********************************/
+/****************** ASIDE *****************/
 
 aside{
     height: calc(100vh - 80px);
@@ -119,12 +119,7 @@ aside .fa-plus-square{
     margin-bottom: 15px;
 }
 
-
-
-
-
-
-/************************* UPGRADE BANNER ************************/
+/****************** UPGRADE BANNER *****************/
 
 .header-banner{
     height: 70px;
@@ -149,7 +144,7 @@ aside .fa-plus-square{
 	text-decoration:none;
 }
 
-/***************************** CARDBOX *****************************/
+/******************** CARDBOX *******************/
 
 .cardbox {
     width: calc(100vw - 200px);
@@ -226,9 +221,9 @@ aside .fa-plus-square{
     color: #7d7f84;
 }
 
-/*************************************************************************
-                               FOOTERBOX
-*************************************************************************/
+/********************************************************
+                    FOOTERBOX
+********************************************************/
 
 
 .footerbox {
@@ -246,8 +241,7 @@ aside .fa-plus-square{
     color: #afafaf;
 }
 
-
-/***************************** footer1 *****************************/
+/******************* sezione footer 1 **********************/
 
 .footer1 img{
     max-width: 50px;
@@ -278,16 +272,8 @@ aside .fa-plus-square{
     font-size: 15px;
 }
 
+/******************** sezione footer 2 ********************/
 
-
-/***************************** footer2 *****************************/
-
-
-
-
-.footer2{
-    text-align: center;
-}
 
 .footer2 .timeline{
     display: flex;
@@ -331,6 +317,10 @@ aside .fa-plus-square{
     margin: 0 5px;
 }
 
+.time{
+    font-size: x-small;
+}
+
 .slider {
     width: 25%;
     height: 4px;
@@ -343,26 +333,13 @@ aside .fa-plus-square{
     height: 4px;
 }
 
-.time{
-    font-size: x-small;
-}
-
-
-
-
-
-/***************************** footer3 *****************************/
-
-
-
-
+/****************** sezione footer 3 ******************/
 
 .footer3 {
-    display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin: 0 10px;
-    width: 200px;
+    width: 250px;
+    height: 100%;
+    padding-right: 20px;
 }
 
 .volume {
@@ -373,7 +350,7 @@ aside .fa-plus-square{
 }
 
 .footer3 i {
-    margin: 0 7px;
+    margin: 0 10px;
     font-size: 15px;
 }
 
