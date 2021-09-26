@@ -38,12 +38,12 @@ aside{
 .firstpart , .secondpart {
     width: 100%;
     padding: 5px;
-    color: #afafaf;
 }
 
 .firstpart #logo{
     width: 150px;
     padding: 10px;
+    cursor: pointer;
 }
 
 .firstpart .icon-menu .icon1 ,
@@ -54,11 +54,21 @@ aside{
     border-left: 3px solid black;
     display: flex;
     align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: #afafaf;
 }
 
 .firstpart .icon-menu .icon4 {
     border-left: 0;
     padding: 8px;
+}
+
+.firstpart .icon-menu .icon1:hover ,
+.firstpart .icon-menu .icon2:hover ,
+.firstpart .icon-menu .icon3:hover ,
+.firstpart .icon-menu .icon4:hover { 
+    color: white;
 }
 
 .firstpart .icon-menu .icon1{
@@ -70,6 +80,7 @@ aside{
     max-width: 30px;
     padding: 5px;
     padding-right: 0;
+    cursor: pointer;
 }
 
 aside h5 {
@@ -92,6 +103,12 @@ aside .elenco-playlist{
     display: flex;
     align-items: center;
     padding: 5px;
+    text-decoration: none;
+    color: #afafaf;
+}
+
+.secondpart .icon5:hover {
+    color: white;
 }
 
 .icon6 p{
@@ -118,6 +135,16 @@ aside .fa-plus-square{
     margin: 5px;
     margin-bottom: 15px;
 }
+
+.elenco-playlist a{
+    text-decoration: none;
+    color: #afafaf;
+}
+
+.elenco-playlist p:hover{
+    color: white;
+}
+
 
 /****************** UPGRADE BANNER *****************/
 
@@ -169,6 +196,12 @@ aside .fa-plus-square{
     list-style: none;
     margin: 0 12px;
     font-size: 12px;
+}
+
+#green-selector{
+    width: 40px;
+    height: 4px;
+    background-color: yellow;
 }
 
 .card-row{
@@ -270,6 +303,11 @@ aside .fa-plus-square{
 .footer1 .song-icon .far{
     padding: 5px;
     font-size: 15px;
+    cursor: pointer;
+}
+
+.footer1 .song-icon .far:hover{
+    color: white;
 }
 
 /******************** sezione footer 2 ********************/
