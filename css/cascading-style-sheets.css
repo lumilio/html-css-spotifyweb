@@ -264,19 +264,23 @@ aside .fa-plus-square{
     position: relative;
 }
 
-.cards .card .sub-cardbox .far{
+.sub-cardbox .far{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: none;   
+    font-size: 50px;
 }
 
-img:hover ~ .far{
-    display: block;
+.sub-cardbox:hover > .far{
+    display: inline-block;
+    z-index: 1;
 }
 
-
+.sub-cardbox:hover > img{
+    opacity: 0.5;
+}
 
 
 
@@ -398,11 +402,11 @@ img:hover ~ .far{
     cursor: pointer;
 }
 
-.fa-play-circle{
+.player-buttons .fa-play-circle{
     font-size: 25px;
 }
 
-.fa-play-circle:hover{
+.player-buttons .fa-play-circle:hover{
     transform: scale(1.2);
 }
 
