@@ -386,6 +386,15 @@ aside .fa-plus-square{
     background-color: #717171;
     border-radius: 2px;
     margin: 0 5px;
+    display: flex;
+    align-items: center;
+}
+
+.timebar .fas{
+    color: white;
+    font-size: 15px;
+    margin-left: -5px;
+    display: none;
 }
 
 .time{
@@ -403,6 +412,13 @@ aside .fa-plus-square{
     width: 100%;
     height: 4px;
 }
+.timebar:hover > .slider{
+    background-color: #a4dc5f;
+}
+
+.timebar:hover > .fas{
+    display:block;
+}
 
 /****************** sezione footer 3 ******************/
 
@@ -418,6 +434,8 @@ aside .fa-plus-square{
     height: 4px;
     background-color: #717171;
     border-radius: 2px;
+    display: flex;
+    align-items: center;
 }
 
 .footer3 i {
@@ -427,4 +445,19 @@ aside .fa-plus-square{
 
 .footer3 a i {
     color: white;
+}
+
+.volume .fas{
+    color: white;
+    font-size: 15px;
+    margin-left: -7px;
+    display: none;
+}
+
+.volume:hover > .slider{
+    background-color: #a4dc5f;
+}
+
+.volume:hover > .fas{
+    display:block;
 }
