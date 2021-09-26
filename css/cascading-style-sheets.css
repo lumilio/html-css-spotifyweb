@@ -246,13 +246,6 @@ aside .fa-plus-square{
     height: auto;
 }
 
-
-
-
-
-
-
-
 .card img{
     width: 100%;
     height: auto;
@@ -281,11 +274,6 @@ aside .fa-plus-square{
 .sub-cardbox:hover > img{
     opacity: 0.5;
 }
-
-
-
-
-
 
 .card h4{
     padding-bottom: 5px;
