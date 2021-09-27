@@ -33,7 +33,6 @@ aside{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    overflow: auto;
     position: relative;
 }
 
@@ -45,6 +44,13 @@ aside{
 .firstpart #logo{
     width: 150px;
     padding: 10px;
+    cursor: pointer;
+}
+
+.firstpart #logo-small{
+    display: none;
+    width: 40px;
+    padding: 5px;
     cursor: pointer;
 }
 
@@ -99,12 +105,19 @@ aside p {
 
 aside .elenco-playlist{
     line-height: 35px;
+    overflow: auto;
+    height: 38vh;
+}
+
+
+.secondpart{
+    text-align: center;
 }
 
 .icon5 , .icon6{
     display: flex;
-    align-items: center;
     padding: 5px;
+    align-items: center;
     text-decoration: none;
     color: #afafaf;
 }
@@ -123,8 +136,7 @@ aside .elenco-playlist{
 }
 
 .icon6 img{
-    max-width: 35px;
-    padding-right: 10px;
+    max-width: 25px;
     color: white;
 }
 
@@ -318,7 +330,6 @@ aside .fa-plus-square{
     display: flex;
     position: fixed;
     justify-content: space-between;
-    z-index: 1;
 }
 
 .footer1 , .footer2 , .footer3 {
@@ -328,6 +339,7 @@ aside .fa-plus-square{
     color: #afafaf;
     padding-bottom: 15px;
     padding-top: 10px;
+    z-index: 1;
 }
 
 /******************* sezione footer 1 **********************/
@@ -503,19 +515,9 @@ aside .fa-plus-square{
 }
 
 
-
-
-
-
-
 /*****************************************
                  Media query 
 ***********************************************/
-
-
-
-
-
 
 
 
@@ -542,8 +544,11 @@ aside .fa-plus-square{
 
 
 @media screen and (max-width:400px) {
+
     aside {
         width: 50px;
+        flex-direction: column;
+        text-align: center;
     }
 
     .main-content{
@@ -557,6 +562,44 @@ aside .fa-plus-square{
         margin: auto;
     }
 
+    aside .firstpart #logo{
+        display: none;
+    }
+
+    aside .firstpart #logo-small{
+        display: block;
+    }
+
+    .small-logo p{
+        display: none;
+    }
+
+    .firstpart .icon-menu .icon1{
+        border-left: 3px solid black;
+    }
+
+    .playlist-list{
+        display: none;
+    }
+
+    .icon-menu{
+        padding-top: 5px;
+    }
+
+    .icon-menu img{
+        max-width: 25px;
+        padding: 5px;
+        padding-right: 0;
+        cursor: pointer;
+    }
+
+    .secondpart img{
+        margin: auto;
+    }
+
+    .secondpart hr{
+        display: none;
+    }
 }
 
 
