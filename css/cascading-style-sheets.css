@@ -341,7 +341,7 @@ aside .fa-plus-square{
     display: flex;
     position: fixed;
     justify-content: space-between;
-    bottom: 0;
+    bottom: 0;  /* <--------------- soluzione che ho usato */
 }
 
 .footer1 , .footer2 , .footer3 {
