@@ -150,6 +150,7 @@ aside .fa-plus-square{
 
 /****************** UPGRADE BANNER *****************/
 
+
 .header-banner{
     height: 80px;
     width: 100%;
@@ -180,8 +181,12 @@ aside .fa-plus-square{
 
 /******************** CARDBOX *******************/
 
-.cardbox {
+.main-content{
     width: calc(100vw - 200px);
+}
+
+
+.cardbox{
     height: calc(100vh - 170px);
     background-color: #141922;
     position: relative;
@@ -370,7 +375,7 @@ aside .fa-plus-square{
 /******************** sezione footer 2 ********************/
 
 
-.footer2 .timeline{
+/* .footer2 .timeline{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -449,11 +454,11 @@ aside .fa-plus-square{
 
 .timebar:hover > .fas{
     display:block;
-}
+} */
 
 /****************** sezione footer 3 ******************/
 
-.footer3 {
+/* .footer3 {
     justify-content: space-between;
     width: 250px;
     height: 100%;
@@ -493,7 +498,7 @@ aside .fa-plus-square{
     display:block;
 }
 
-
+ */
 
 
 
@@ -510,7 +515,7 @@ aside .fa-plus-square{
 
 
 
-@media screen and (max-width:1200px) {
+/* @media screen and (max-width:1200px) {
 
     .cards {
         flex-wrap: wrap;
@@ -530,7 +535,7 @@ aside .fa-plus-square{
         width: calc(100% / 2 - 13px)
     }
 }
-
+ */
 
 
 
