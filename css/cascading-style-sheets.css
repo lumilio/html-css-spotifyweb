@@ -21,6 +21,7 @@ body{
 
 .mainbox{
     display: flex;
+    width: 100%;
 }
 
 /****************** ASIDE *****************/
@@ -33,6 +34,7 @@ aside{
     flex-direction: column;
     justify-content: space-between;
     overflow: auto;
+    position: relative;
 }
 
 .firstpart , .secondpart {
@@ -173,6 +175,7 @@ aside .fa-plus-square{
 
 .header-banner .upgrade-button:hover{
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 /******************** CARDBOX *******************/
@@ -191,6 +194,7 @@ aside .fa-plus-square{
     justify-content: center;
     width: 100%;
     padding: 5px;
+    text-align: center;
 }
 
 .menu a{
@@ -198,7 +202,7 @@ aside .fa-plus-square{
     display: inline-block;
     list-style: none;
     margin: 0 12px;
-    font-size: 12px;
+    font-size: 11px;
     text-decoration: none;
     color: #afafaf;
 }
@@ -268,11 +272,14 @@ aside .fa-plus-square{
 
 .sub-cardbox:hover > .far{
     display: inline-block;
-    z-index: 1;
 }
 
 .sub-cardbox:hover > img{
     opacity: 0.5;
+}
+
+.sub-cardbox:hover{
+    cursor: pointer;
 }
 
 .card h4{
@@ -305,6 +312,8 @@ aside .fa-plus-square{
 	background-color: #282828;
     display: flex;
     justify-content: space-between;
+    /* position: relative;
+    z-index: 1; */
 }
 
 .footer1 , .footer2 , .footer3 {
@@ -483,3 +492,64 @@ aside .fa-plus-square{
 .volume:hover > .fas{
     display:block;
 }
+
+
+
+
+
+
+
+/*****************************************
+                 Media query 
+***********************************************/
+
+
+
+
+
+
+
+
+@media screen and (max-width:1200px) {
+
+    .cards {
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+    .card {
+        width: calc(100% / 4 - 13px)
+    }
+
+    .song-icon {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .card {
+        width: calc(100% / 2 - 13px)
+    }
+}
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+/****************** sezione footer 3 ******************/
+
+/****************** sezione footer 3 ******************/
+
+/****************** sezione footer 3 ******************/
