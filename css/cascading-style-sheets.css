@@ -15,6 +15,7 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+
 /*****************************************
                  MAINBOX 
 ***********************************************/
@@ -337,6 +338,7 @@ aside .fa-plus-square{
     display: flex;
     position: fixed;
     justify-content: space-between;
+    z-index: 1;
 }
 
 .footer1 , .footer2 , .footer3 {
@@ -586,6 +588,10 @@ aside .fa-plus-square{
     }
 
     .playlist-list{
+        display: none;
+    }
+
+    .elenco-playlist p{
         display: none;
     }
 
