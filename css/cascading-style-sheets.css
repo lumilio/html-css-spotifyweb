@@ -107,12 +107,18 @@ aside p {
 aside .elenco-playlist{
     line-height: 35px;
     overflow: auto;
+    padding: 5px;
+    padding-right: 70px;
+    height: 35vh;
+    position: fixed;
+    margin-top: 280px;
 }
 
 
 .secondpart{
     text-align: center;
     position: relative;
+    background-color: black;
 }
 
 .icon5 , .icon6{
