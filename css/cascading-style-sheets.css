@@ -15,6 +15,9 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+.flexbox{
+    display: flex;
+}
 
 /*****************************************
                  MAINBOX 
@@ -338,7 +341,7 @@ aside .fa-plus-square{
     display: flex;
     position: fixed;
     justify-content: space-between;
-    z-index: 1;
+    bottom: 0;
 }
 
 .footer1 , .footer2 , .footer3 {
